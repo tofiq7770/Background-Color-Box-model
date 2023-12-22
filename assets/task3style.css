@@ -3,9 +3,11 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.fa-align{
+  margin-right: auto;
+}
 header .nav {
-  width: 1000px;
+  width: 1200px;
   height: 100px;
   background-color: #333333;
 }
@@ -14,13 +16,18 @@ header .nav span {
   color: #ffff;
   margin-left: 20px;
 }
+.center {
+  display: flex;
+  position: relative;
+}
 header .nav span:last-child {
   font-size: 60px;
   margin-left: 0;
+  font-weight: bold;
   color: #f78122;
 }
 .nav-bottom {
-  width: 1000px;
+  width: 1200px;
 }
 .nav-bottom ul {
   display: flex;
@@ -40,7 +47,7 @@ header .nav span:last-child {
   color: white;
 }
 .nav-bottom ul li a:link {
-  color: black;
+  color: white;
 }
 .nav-bottom ul li a:active {
   color: white;
@@ -48,13 +55,8 @@ header .nav span:last-child {
 .nav-bottom ul li a:visited {
   color: white;
 }
-main {
-  width: 1000px;
-  height: 200px;
-}
 main .left-center {
   width: 700px;
-  height: 200px;
 }
 main .left-center h3 {
   padding-top: 30px;
@@ -78,20 +80,64 @@ a:visited {
   cursor: pointer;
 }
 main .left-center a:hover {
-    color: #f46e00;
+  color: #f46e00;
 }
 .left-center a {
   width: 100px;
   height: 150px;
   margin-bottom: 10px;
 }
-.right-center{
-  margin-left: 700px;
-    background-color: #E5E5E5;
+.right-center {
+  position: absolute;
+  width: 400px;
+  background-color: #e5e5e5;
+  margin-left: 800px;
 }
-.right-center .box{
-    background-color: #E5E5E5;
+.right-center .box {
+  background-color: #e5e5e5;
+  padding-bottom: 100px;
+  height: 508px;
 }
-.center {
+.right-center .box h2 {
+  border-bottom: solid #c3c2c2;
+  padding: 15px;
+  font-size: 23px;
+}
+.right-center .box h3 {
+  border-bottom: solid #c3c2c2;
+  padding: 15px;
+  font-size: 23px;
+}
+.right-center .box p {
+  padding: 15px;
+  font-size: 20px;
+  color: #333333;
+}
+.right-center .box ul {
+  background-color: #e5e5e5;
+  padding-bottom: 70px;
+}
+.right-center .box ul li {
+  list-style: none;
+  padding: 7px;
+}
+.right-center .box ul li a {
+  text-decoration: none;
+  font-size: large;
+  padding: 25px;
+}
+.f-bottom {
+  width: 1200px;
+  height: 60px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-bottom p {
+  color: white;
 }
 
+.f-bottom a {
+  text-decoration: none;
+}
