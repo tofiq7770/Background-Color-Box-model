@@ -1,0 +1,122 @@
+body {
+  background-color: #dce3f0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.height {
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 370px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.image {
+  position: absolute;
+  right: 12px;
+  top: 17px;
+  margin-top: -32px;
+}
+.center-up {
+  position: relative;
+}
+
+.description h1 {
+  font-size: 40px;
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+.description h5 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.center-up .head h4 {
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.rating i {
+  color: orange;
+}
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+.center-main {
+  display: flex;
+  align-items: baseline;
+}
+.center-main span {
+  color: #4d5c66;
+  font-size: large;
+}
+.center-main .colors {
+  margin-left: auto;
+}
+
+.colors {
+  display: flex;
+}
+
+.colors span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  margin-right: 6px;
+}
+
+.colors span:nth-child(1) {
+  background-color: red;
+}
+
+.colors span:nth-child(2) {
+  background-color: blue;
+}
+
+.colors span:nth-child(3) {
+  background-color: yellow;
+}
+
+.colors span:nth-child(4) {
+  background-color: purple;
+}
+.button {
+  width: 350px;
+  height: 40px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #ef061e;
+}
+.button:hover{
+  font-size: 19px;
+}
+.rating p {
+  color: #4d5c66;
+}
+.parag {
+  color: #4d5c66;
+  font-size: 24px;
+}
